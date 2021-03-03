@@ -1,3 +1,3 @@
 setTimeout(() => {
-  alert("Welcome to Quan's Portfolio!");
+  console.log("Welcome to Quan's Portfolio!");
 }, 3000);
