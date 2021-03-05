@@ -8,10 +8,11 @@ html {
     Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: 150%;
   line-height: 1.5;
+  scroll-behavior: smooth;
 }
 
 body {
-  margin: 0;
+  margin: 0 auto;
   background-color: black;
   color: orange;
 }
