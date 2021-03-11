@@ -51,11 +51,14 @@ header {
   min-height: 100vh;
 }
 
-nav ul {
+nav {
   grid-area: n;
-  list-style: none;
+}
+
+nav ul {
   position: sticky;
   top: 0;
+  list-style: none;
 }
 
 nav ul li a {
