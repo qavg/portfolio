@@ -48,15 +48,29 @@ video {
 
 header {
   grid-area: h;
-  /* height: 100vh; */
+  min-height: 100vh;
 }
 
 nav {
   grid-area: n;
+  /* position: sticky;
+  top: 0; */
 }
 
 main {
   grid-area: m;
+}
+
+#about {
+  min-height: 100vh;
+}
+
+#projects {
+  min-height: 100vh;
+}
+
+#contact {
+  min-height: 100vh;
 }
 
 footer {
@@ -64,9 +78,4 @@ footer {
 }
 
 /* #viewport-header {
-} */
-
-/* nav {
-  position: sticky;
-  top: 0;
 } */
