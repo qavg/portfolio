@@ -51,7 +51,7 @@ header {
   min-height: 100vh;
 }
 
-nav {
+nav ul {
   grid-area: n;
   list-style: none;
   position: sticky;
