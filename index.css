@@ -53,22 +53,17 @@ header {
 
 nav {
   grid-area: n;
-  /* position: sticky;
-  top: 0; */
+  list-style: none;
+  position: sticky;
+  top: 0;
 }
 
 main {
   grid-area: m;
 }
 
-#about {
-  min-height: 100vh;
-}
-
-#projects {
-  min-height: 100vh;
-}
-
+#about,
+#projects,
 #contact {
   min-height: 100vh;
 }
@@ -76,6 +71,3 @@ main {
 footer {
   grid-area: f;
 }
-
-/* #viewport-header {
-} */
