@@ -18,7 +18,7 @@ html {
 }
 
 body {
-  margin: 0 auto;
+  /* margin: 0 auto; */
   background-color: black;
   color: orange;
 }
@@ -35,8 +35,28 @@ video {
   transform: scale(1.05);
 }
 
-#viewport-header {
+.grid-container {
+  display: grid;
 }
+
+header {
+  grid-area: h;
+}
+
+nav {
+  grid-area: n;
+}
+
+main {
+  grid-area: m;
+}
+
+footer {
+  grid-area: f;
+}
+
+/* #viewport-header {
+} */
 
 /* nav {
   position: sticky;
