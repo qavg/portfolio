@@ -53,11 +53,11 @@ header {
 
 nav {
   grid-area: n;
+  position: sticky;
+  top: 0;
 }
 
 nav ul {
-  position: sticky;
-  top: 0;
   list-style: none;
 }
 
