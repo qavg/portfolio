@@ -37,18 +37,24 @@ video {
 
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(auto, 1fr);
   grid-auto-rows: minmax(100px, auto);
   grid-template-areas:
-    "h h h"
-    "n n n"
-    "m m m"
-    "f f f";
+    "h"
+    "n"
+    "m"
+    "f";
 }
 
 header {
   grid-area: h;
   min-height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+header > h1 {
+  align-self: center;
 }
 
 nav {
@@ -59,7 +65,8 @@ nav {
 
 nav ul {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  align-items: center;
   list-style: none;
 }
 
@@ -76,8 +83,14 @@ main {
 #projects,
 #contact {
   min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 footer {
   grid-area: f;
+  display: flex;
+  justify-content: center;
 }
