@@ -58,6 +58,10 @@ nav ul {
   top: 0;
 }
 
+nav ul li a {
+  text-decoration: none;
+}
+
 main {
   grid-area: m;
 }
