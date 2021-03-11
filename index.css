@@ -89,6 +89,12 @@ main {
   align-items: center;
 }
 
+.projects {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1em;
+}
+
 footer {
   grid-area: f;
   display: flex;
