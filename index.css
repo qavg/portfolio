@@ -101,6 +101,10 @@ main {
   gap: 1em;
 }
 
+#contact ul {
+  list-style: none;
+}
+
 footer {
   grid-area: f;
   display: flex;
