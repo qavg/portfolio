@@ -63,7 +63,7 @@ nav {
   position: sticky;
   top: 0;
   z-index: 1;
-  align-self: center;
+  align-self: end;
   background-color: black;
 }
 
@@ -72,6 +72,7 @@ nav ul {
   justify-content: space-around;
   align-items: center;
   list-style: none;
+  text
 }
 
 nav ul li a {
