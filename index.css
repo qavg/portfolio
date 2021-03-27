@@ -86,13 +86,18 @@ main {
 
 #about,
 #projects,
-#contact {
-  min-height: 100vh;
+#contact, .cards {
   display: flex;
   flex-direction: column;
   justify-content: center;
   color: whitesmoke;
-  gap: 3rem;
+}
+
+#about,
+#projects,
+#contact {
+  min-height: 100vh;
+  gap: 3em;
 }
 
 #about,
@@ -117,6 +122,10 @@ main {
   grid-template-rows: repeat(auto-fit, minmax(200px, 1fr));
   grid-auto-rows: 200px;
   gap: 3rem;
+}
+
+.cards {
+  border: 1px solid skyblue;
 }
 
 #contact {
