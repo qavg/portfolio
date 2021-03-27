@@ -116,6 +116,7 @@ main {
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   grid-template-rows: repeat(auto-fit, minmax(200px, 1fr));
   grid-auto-rows: 200px;
+  gap: 3rem;
 }
 
 #contact {
